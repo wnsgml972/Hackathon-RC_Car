@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/dapa"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+        <Button
+
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/forwardBtn"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:background="@drawable/forward"
+
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+
+                android:padding="20dp"
+                android:textSize="20dp"
+                android:id="@+id/leftBtn"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+
+
+
+                android:background="@drawable/button1"
+                />
+            <Button
+
+                android:padding="20dp"
+                android:textSize="20dp"
+                android:id="@+id/stopBtn"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+
+                android:background="@drawable/button2"
+                />
+
+            <Button
+                android:padding="20dp"
+                android:textSize="20dp"
+                android:id="@+id/rightBtn"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+
+                android:background="@drawable/button3"
+                />
+        </LinearLayout>
+        <Button
+
+
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:id="@+id/bottomBtn"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/back"
+
+
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tempText"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temp"
+        android:textSize="30dp"
+
+        />
+    <Button
+        android:padding="20dp"
+        android:id="@+id/sayBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/button5" />
+
+</LinearLayout>
